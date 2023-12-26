@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg shape-rendering="crispEdges" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="logo" role="presentation">
+<style type="text/css">
+    /* updated CSS for dark mode */
+      #plane {
+        stroke: #575279;
+        fill: #575279;
+      }
+      #contrail {
+        stroke: #ea9d34;
+        fill: #ea9d34;
+      }
+    
+
+    @media (prefers-color-scheme: dark) {
+      #plane {
+        stroke: #e0def4;
+        fill: #e0def4;
+      }
+      #contrail {
+        stroke: #f6c177;
+        fill: #f6c177;
+      }
+    }
+  </style>
+ <g transform="matrix(0 -1.1015 1.1015 0 1.0335 62.563)">
+   <path id="plane" d="m44.146 35.191 10.1-27.4v-0.2c0.5-1.8 0-3.5-1.3-4.8s-3-1.8-4.8-1.3h-0.2l-27.4 10.1c-1.6 0.5-3 1.8-3.4 3.5-0.5 1.8 0 3.5 1.3 4.8l5.9 5.9 2.1-2.1-5.9-5.9c-1.1-1.1-0.6-3 0.9-3.3l30.874-10.883-19.574 16.483-8.9 8.9c-0.8 0.8-0.8 2.1 0 2.8 0.8 0.8 2.1 0.8 2.8 0l25.674-28.183-10.874 30.583c-0.4 1.5-2.3 2-3.3 0.9l-5.9-5.9-2.1 2.1 5.9 5.9c1.3 1.3 3.1 1.7 4.8 1.3 1.6-0.4 2.9-1.6 3.3-3.3z"/>
+  
+  <g id="contrail">
+  <path id="middle" d="m9.7462 45.991c-0.4-0.4-0.4-1 0-1.4l9.9-9.9c0.4-0.4 1-0.4 1.4 0s0.4 1 0 1.4l-9.9 9.9c-0.4 0.4-1 0.4-1.4 0z" />
+  <path id="top" d="m9.7462 54.491c-0.4-0.4-0.4-1 0-1.4l9.9-9.9c0.4-0.4 1-0.4 1.4 0s0.4 1 0 1.4l-9.9 9.9c-0.4 0.4-1 0.4-1.4 0z"/>
+  <path id="bottom" d="m1.2462 45.991c-0.4-0.4-0.4-1 0-1.4l9.9-9.9c0.4-0.4 1-0.4 1.4 0s0.4 1 0 1.4l-9.9 9.9c-0.4 0.4-1 0.4-1.4 0z" />
+   <animate
+        attributeName="visibility"
+        from="visible"
+        to="hidden"
+        dur="2s"
+        repeatCount="indefinite"/>     
+  </g>
+
+ </g>
+</svg>
