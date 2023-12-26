@@ -222,7 +222,7 @@ html[data-theme=dark],html[data-theme=light] {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right,rgba(144,122,169,0),rgba(234,157,52,.75),rgba(144,122,169,0));
+   background-image: linear-gradient(to right,rgba(144,122,169,0),rgba(234,157,52,.75),rgba(144,122,169,0));
   margin: .5rem 0
 }
 
@@ -243,7 +243,7 @@ header {
   position: absolute;
   top: 8px;
   left: 16px;
-  font-size: 18px
+  font-size: 4rem;
 }
 
 .name {
@@ -327,9 +327,11 @@ header {
 
 .username {
   font-family: 'Poppins', Bahnschrift,"DIN Alternate","Franklin Gothic Medium","Nimbus Sans Narrow",sans-serif-condensed,sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 100%;;
-  color: var(--rp-pine)
+  color: var(--rp-gold);
+  background-color: var(--rp-highlight-low);
+  padding: 0 0.25rem;
 }
 
 /* Dark mode slider */
@@ -395,8 +397,13 @@ border-radius: 34px;
 border-radius: 50%;
 }
 
-.fediverse{
-  color: var(--rp-highlight-high);
 
+svg {
+  fill: currentColor;
+  stroke: currentColor;
+}
 
+highlight{
+  background-color: var(--rp-overlay);
+  color: var(--rp-subtle);
 }
