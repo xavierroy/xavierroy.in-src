@@ -136,8 +136,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
   display: block
 }
 
-body,header {
-  width: 70%;
+
+header {
+  width: 75%;
   margin: auto
 }
 
@@ -148,6 +149,8 @@ body {
   font-family: "Dosis",Bahnschrift,"DIN Alternate","Franklin Gothic Medium","Nimbus Sans Narrow",sans-serif-condensed,sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
+  width: 100%;
+  min-height: 100vh;
   height: 100vh
 }
 
@@ -263,13 +266,13 @@ header {
 }
 
 .bio,.links {
-  width: 70%;
+  width: 75%;
   margin: auto;
   text-align: center;
   padding-top: 2rem
 }
 
-.links h3,.links ul {
+.links h2,.links ul {
   font-size: 1.5rem;
   padding-bottom: 1.5rem
 }
@@ -280,16 +283,6 @@ header {
   text-align: left;
   list-style-type: square;
   list-style-position: inside
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  list-style: none
-}
-
-.social-icons li {
-  margin: 0 10px
 }
 
 .icon,.inline-icon {
@@ -325,11 +318,11 @@ header {
 
 .label, .inline-icon>.label {
   font: xx-small;
-  display: none
 }
 
-.icon>.label,.theme-switch input {
-  display: none
+.inline-icon>.label, .icon>.label,.theme-switch input {
+  display: none;
+  font: xx-small;
 }
 
 .username {
@@ -342,19 +335,19 @@ header {
 /* Dark mode slider */
 
 
-.switch {
-  height: 100px;
+.switch {/*
+  height: 100px;*/
   position: fixed;
-  right: 50px;
-  top: 50px;
+  right: 25px;
+  bottom: 25px;
 
 }
   
 .theme-switch {
 display: inline-block;
-height: 34px;
+height: 2rem;
 position: relative;
-width: 60px;
+width: 4rem;
 }
 
 .theme-switch input {
@@ -404,7 +397,6 @@ border-radius: 50%;
 
 .fediverse{
   color: var(--rp-highlight-high);
-  width: 0.5rem;
-  vertical-align: super;
-  
+
+
 }
