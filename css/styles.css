@@ -329,7 +329,7 @@ header {
   font-family: 'Poppins', Bahnschrift,"DIN Alternate","Franklin Gothic Medium","Nimbus Sans Narrow",sans-serif-condensed,sans-serif;
   font-weight: 500;
   font-size: 100%;;
-  color: var(--rp-gold);
+  color: var(--rp-pine);
   background-color: var(--rp-highlight-low);
   padding: 0 0.25rem;
 }
