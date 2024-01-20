@@ -9,7 +9,7 @@
 /instagram //instagram.com/xavierroy
 /pixelfed //pixelfed.social/@xavierroy
 /threads //threads.net/@xavierroy
-/books //xavierroy.com/library
+/books https://xavierroy.com/library
 /goodreads //goodreads.com/xavierroy
 /bsky //bsky.app/profile/xavierroy.in
 
@@ -18,5 +18,5 @@
 /wa //wa.me/919840377789?text=Hi%20Xavier
 /tel //t.me/xavierroy
 
-/maxreads //librarycat.org/lib/lorantmax
+/maxreads https://librarycat.org/lib/lorantmax
 https://xavierroy.in/blog/* https://xavierroy.com/:splat 301!
