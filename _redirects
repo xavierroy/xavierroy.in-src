@@ -2,21 +2,21 @@
 
 /blog //xavierroy.com
 /prof //paperarrow.com
-/twitter //twitter.com/xavierroy
-/mastodon //mastodon.social/@xavierroy
-/facebook //facebook.com/xavierroy
-/linkedin //linkedin.com/in/xavierroy
-/instagram //instagram.com/xavierroy
-/pixelfed //pixelfed.social/@xavierroy
-/threads //threads.net/@xavierroy
+/twitter https://twitter.com/xavierroy
+/mastodon https://mastodon.social/@xavierroy
+/facebook https://facebook.com/xavierroy
+/linkedin https://linkedin.com/in/xavierroy
+/instagram https://instagram.com/xavierroy
+/pixelfed https://pixelfed.social/@xavierroy
+/threads https://threads.net/@xavierroy
 /books https://xavierroy.com/library
-/goodreads //goodreads.com/xavierroy
-/bsky //bsky.app/profile/xavierroy.in
+/goodreads https://goodreads.com/xavierroy
+/bsky https://bsky.app/profile/xavierroy.in
 
 
-/code //github.com/xavierroy
-/wa //wa.me/919840377789?text=Hi%20Xavier
-/tel //t.me/xavierroy
+/code https://github.com/xavierroy
+/wa https://wa.me/919840377789?text=Hi%20Xavier
+/tel https://t.me/xavierroy
 
 /maxreads https://librarycat.org/lib/lorantmax
 https://xavierroy.in/blog/* https://xavierroy.com/:splat 301!
