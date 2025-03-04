@@ -1,6 +1,6 @@
 # Websites
-/blog //xavierroy.com
-/garden //paperarrow.com
+/posts/* https://xavierroy.com/posts/:splat
+/garden https://paperarrow.com
 /books https://xavierroy.com/library
 /api https://api.xavierroy.com
 /code https://github.com/xavierroy
